@@ -10,7 +10,12 @@ This project focuses on building an end-to-end pipeline for data preprocessing, 
 
 
 ## 📂 Project Structure  
-
+OlfecNet-Intelligence/
+├── OlfecNet-Intelligence.ipynb    # Main Jupyter notebook for the workflow
+├── data/                         # Raw and processed datasets (molecular, GC-MS, odor labels)
+├── models/                       # Saved models and checkpoints
+├── results/                      # Generated results and evaluation metrics
+├── README.md                     # Project documentation
 
 
 ---
@@ -26,7 +31,7 @@ This project focuses on building an end-to-end pipeline for data preprocessing, 
 
 ## 🛠️ Technologies Used  
 - Python  
-- PyTorch / TensorFlow (depending on your implementation)  
+- PyTorch 
 - NumPy, Pandas  
 - Scikit-learn  
 - Matplotlib / Seaborn for visualization  
@@ -37,8 +42,8 @@ This project focuses on building an end-to-end pipeline for data preprocessing, 
 
 1. Clone the repository:  
 ```bash
-git clone https://github.com/yashnayi234/OlfecNet-Intelligence.git
-cd OlfecNet-Intelligence
+git clone https://github.com/yashnayi234/Olfaction-Intelligence.git
+cd OlfacNet-Intelligence
 ```
 
 ```bash
@@ -48,13 +53,10 @@ pip install -r requirements.txt
 
 ## Results and Evaluation
 
-| Accuracy  | 99%         |
-| Loss      | 0.0371      |
+Accuracy: 99.05%        
+Loss: 0.0371
 
-
-
-| Model Version | Description                      | Approx. Parameters |
-|---------------|----------------------------------|--------------------|
-| Base Model    | CNN with standard layers         | ~XXX K             |
-| 1M Model      | Enhanced with larger dense layers| ~1 Million         |
-| 5M Model      | Further scaled dense layers      | ~5 Million         |
+## Future Work
+ - Expand the dataset with more molecular samples
+ - Implement hyperparameter tuning (Grid Search / Optuna)
+ - Explore transformer-based architectures for sequence modeling
