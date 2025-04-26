@@ -10,13 +10,14 @@ This project focuses on building an end-to-end pipeline for data preprocessing, 
 
 
 ## 📂 Project Structure  
+```
 OlfecNet-Intelligence/
 ├── OlfecNet-Intelligence.ipynb    # Main Jupyter notebook for the workflow
 ├── data/                         # Raw and processed datasets (molecular, GC-MS, odor labels)
 ├── models/                       # Saved models and checkpoints
 ├── results/                      # Generated results and evaluation metrics
 ├── README.md                     # Project documentation
-
+```
 
 ---
 
