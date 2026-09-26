@@ -2,6 +2,8 @@
 
 ### Giving Computers the Sense of Smell
 
+### [Vercel App](olfaction-intelligence.vercel.app)
+
 > An AI-powered olfactory platform that predicts odor profiles from molecular structures using deep learning — trained on 44,500+ molecules across 105 odor categories.
 
 ---
