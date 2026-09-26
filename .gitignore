@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Environment
+.env
+.venv
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Node
+web/node_modules/
+web/.next/
+web/out/
+
+# Large binary files (keep in Git LFS or download separately)
+# experiments/checkpoints/*.pth
+
+# Jupyter
+.ipynb_checkpoints/
+experiments/.ipynb_checkpoints/
